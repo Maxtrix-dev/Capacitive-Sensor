@@ -526,188 +526,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 140.97 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11217bc8-f05b-4161-881c-996ba4b57ee8")
-	)
-	(junction
-		(at 140.97 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13c72f3a-6980-415d-8022-3758fbce4874")
-	)
-	(junction
-		(at 140.97 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c2ef970-d0c5-4c2f-a33e-99540cef0be6")
-	)
-	(junction
-		(at 140.97 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3154e1fe-45d8-49d9-b226-873a3a1352e4")
-	)
-	(junction
-		(at 140.97 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "341f2531-9f86-4930-a2e5-41f002c8e042")
-	)
-	(junction
-		(at 140.97 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4421d409-7c01-423e-b8c0-e6e3524bd964")
-	)
-	(junction
-		(at 140.97 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52b49dcf-60f3-46f1-b63d-8acf411abbbc")
-	)
-	(junction
-		(at 140.97 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb4a0c57-9062-4643-ae76-a50354eaea2a")
-	)
-	(junction
-		(at 140.97 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c13236f1-f060-481e-be77-98803f0df462")
-	)
-	(junction
-		(at 140.97 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d720b58d-ff35-44c3-b330-59014c583b89")
-	)
-	(junction
-		(at 140.97 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdbb55b4-afa2-4e9d-9f14-d981171f85a8")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
+	(rectangle
+		(start 78.74 77.47)
+		(end 210.82 123.19)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07644f4f-f2a2-4f23-983d-58aff382102d")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
+		(fill
+			(type none)
 		)
-		(uuid "0c0a7418-3c1a-4365-9f9c-6f3cf94b5f1a")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215268d4-a56a-42c4-a856-00d2649729de")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "366e5c08-63d1-4d6f-a33b-39d70fc3889d")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9cdaa1-188a-4c82-a336-736ad722f45c")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5356f32d-f06d-4d2d-a18b-137e674a5a04")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a9cd748-f64a-4554-9a95-179785aad8eb")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "647cc166-a9b7-40bd-bcf9-81859f4d5f0f")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f765b98-17f0-4321-9e46-8fb0fe9acb74")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68a32fc-53e9-4393-b2d6-74e04fa0a011")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6b16f4-93ca-4b54-a96f-8d742800e63b")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c004c750-1aea-4935-a7bd-253fd4cbfacb")
-	)
-	(bus_entry
-		(at 138.43 82.55)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f174fb80-c7f9-43c5-ac6f-8e46312131db")
+		(uuid "460b9351-a347-4f02-aeef-51484e5aca0c")
 	)
 	(wire
 		(pts
@@ -811,16 +640,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 140.97 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69164191-900d-4b87-a080-b3fb07bffe46")
-	)
-	(wire
-		(pts
 			(xy 140.97 92.71) (xy 151.13 92.71)
 		)
 		(stroke
@@ -911,7 +730,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 82.55) (xy 138.43 82.55)
+			(xy 127 100.33) (xy 138.43 100.33)
 		)
 		(stroke
 			(width 0)
@@ -988,16 +807,6 @@
 			(type default)
 		)
 		(uuid "f35971e7-359d-4bf0-96e5-851fb6da6540")
-	)
-	(wire
-		(pts
-			(xy 140.97 113.03) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4489d1-f086-4441-8c33-d8a76050673f")
 	)
 	(label "Spiral.3"
 		(at 151.13 92.71 180)
@@ -1131,7 +940,7 @@
 	)
 	(hierarchical_label "Spiral{C 1 2 3 4 5 6 7 8 9 10 11 12}"
 		(shape input)
-		(at 127 82.55 180)
+		(at 127 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
