@@ -3674,6 +3674,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -3978,10 +4093,22 @@
 		(uuid "2da26481-a139-4fd1-bfab-594ef75bdeab")
 	)
 	(junction
+		(at 49.53 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0288cccb-40c3-48e4-91ef-97a247220b56")
+	)
+	(junction
 		(at 66.04 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02e76c61-bb2e-401a-93ab-7e2bab173495")
+	)
+	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7da6b6-4f70-466a-bab6-7aef031d3cb4")
 	)
 	(junction
 		(at 66.04 80.01)
@@ -4030,6 +4157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f0686a7-7c45-40f7-b437-1fa0f9833190")
+	)
+	(junction
+		(at 223.52 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a749213-a4df-489b-a07c-d250f51af3da")
 	)
 	(junction
 		(at 226.06 72.39)
@@ -4102,6 +4235,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee56636c-58dc-4b1c-86cb-058074d9ff55")
+	)
+	(no_connect
+		(at 46.99 52.07)
+		(uuid "a140a2a2-8bda-4ce1-9182-30ddb5c198df")
+	)
+	(no_connect
+		(at 195.58 92.71)
+		(uuid "e2133017-c810-4acc-9b42-ce63e8cbbbe7")
+	)
+	(no_connect
+		(at 46.99 54.61)
+		(uuid "fccabde2-1eeb-4030-8232-2417b4d58dee")
 	)
 	(wire
 		(pts
@@ -4412,6 +4557,16 @@
 			(type default)
 		)
 		(uuid "35f6f4e5-8d11-48e5-aba3-6e3c5812895a")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bb115f-00c3-466e-a8d8-21643dedb446")
 	)
 	(wire
 		(pts
@@ -4805,6 +4960,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 24.13) (xy 52.07 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dc1885-0b01-43d2-9a99-3d34429d9778")
+	)
+	(wire
+		(pts
 			(xy 59.69 31.75) (xy 59.69 30.48)
 		)
 		(stroke
@@ -4975,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 24.13) (xy 52.07 24.13)
+			(xy 46.99 24.13) (xy 49.53 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5095,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 85.09) (xy 195.58 85.09)
+			(xy 173.99 85.09) (xy 179.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00424e21-409a-4c11-a140-45d3c4e1fa62")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 27.94 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -5687,7 +5852,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a529f1-2488-4283-80ce-6260359244fc")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 66.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5766,7 +5931,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "081c5643-f476-478a-8761-2a3525288698")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 16.51 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -5844,7 +6009,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5987,7 +6152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aeaef37-38e9-4405-aec3-e6a7f1edff4f")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 20.32 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6216,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6069,7 +6234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f76aaf-2bbe-4290-a4c3-ddc099f8ddc5")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 123.19 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6133,7 +6298,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R19")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6151,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "127f902d-3365-4a62-8574-3e303f21f06a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR025"
 			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6212,7 +6377,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR0104")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e570b3d-ac25-42d8-9adb-26d61d11aeee")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR016"
 			(at 50.8 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -6290,7 +6455,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR037")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6308,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20abe85b-6a5a-47ba-bb5e-14f52737ecac")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR038"
 			(at 198.12 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6369,7 +6534,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR010")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2274f654-5e5f-49f1-8475-6330f72ae673")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR032"
 			(at 118.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6448,7 +6613,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR044")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28667160-8801-4918-9983-abcc8817efa0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR036"
 			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6619,7 +6784,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR022")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "293f8e2e-2f3d-46f2-b60b-1e61d2838e6a")
-		(property "Reference" "C22"
+		(property "Reference" "C5"
 			(at 91.44 49.022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +6863,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C22")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44f45a64-58f9-440b-b5c0-0bd6e98f9d55")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 118.11 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6941,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6794,7 +6959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48dee606-7026-405f-946c-26915813726a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 120.65 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6854,7 +7019,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6871,7 +7036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c5fcc67-e3e1-499b-b68a-870dad835d65")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 53.34 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6933,7 +7098,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6951,7 +7116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ceaff97-54b3-4f20-8b14-de8f9018ec14")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR019"
 			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +7177,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR033")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7030,7 +7195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4defb3bb-720a-4492-bcd9-f19e0d9bdab2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR027"
 			(at 104.14 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7090,7 +7255,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR04")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5174435a-1153-43fe-ade8-ba8f7797b941")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR021"
 			(at 66.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7168,7 +7333,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR03")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7186,7 +7351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55320c31-8217-4cc6-8b47-8fac3b2da3cc")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR015"
 			(at 50.8 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7246,7 +7411,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR036")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7264,7 +7429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558d8374-da40-4ce6-825c-62e539b11705")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR044"
 			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +7489,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR021")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59dfc19c-f252-44b0-bea3-ee8d7a05b05c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 27.94 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7402,7 +7567,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6445bb6b-44ed-4b6b-afc1-6c728bac897d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR020"
 			(at 67.31 127 0)
 			(hide yes)
 			(show_name no)
@@ -7481,7 +7646,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR034")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7499,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d25c42-fe4c-47f6-8747-df2b6be9f9b1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR024"
 			(at 82.55 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -7559,7 +7724,85 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR046")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672dd7bb-e6a0-4425-8dd0-d1cebfe1ee7c")
+		(property "Reference" "#FLG03"
+			(at 179.07 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 179.07 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a9af326-7658-40af-8825-8eb09b63a22c")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7577,7 +7820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69eb2be9-5048-4e45-8bf0-bb825160f839")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR026"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7637,7 +7880,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR06")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7655,7 +7898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9fdb70-ec7d-4f8f-99bf-6c7f17424584")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR023"
 			(at 74.93 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7715,7 +7958,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR035")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7733,7 +7976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7265f193-081a-4ea0-800f-2af226bc9f9d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR039"
 			(at 207.01 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7793,7 +8036,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR015")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7811,7 +8054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7498d541-ffe7-4b69-94e6-b823bfc16a31")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 88.9 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7875,7 +8118,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7893,7 +8136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d68e10-86f9-4189-9361-6a3894b6cfdf")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR033"
 			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7954,7 +8197,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR09")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7972,7 +8215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b0209d3-6b33-4af9-ac7c-d26fabb34d62")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR037"
 			(at 182.88 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +8275,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR023")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8049,7 +8292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cf05bc1-c1af-4be6-803b-9401b34849b4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR042"
 			(at 219.71 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8109,7 +8352,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR018")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f34f053-f3a0-49f1-badb-2ca7353a37fb")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 207.01 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8246,7 +8489,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8357,7 +8600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84caa667-0c1a-47bc-b8a3-656fc7145347")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 226.06 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8417,7 +8660,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "884c3f88-11b1-4f78-ae43-da75bf63ace0")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 236.22 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,7 +8739,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8513,7 +8756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a120868-301e-4016-bb07-41448a307a59")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 53.086 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8575,7 +8818,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8593,7 +8836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92250c35-3707-40bb-9801-0d2061595860")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR014"
 			(at 39.37 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8653,7 +8896,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR07")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8670,7 +8913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97132072-bb87-43fe-892b-eaa9c7f06e93")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 85.09 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,7 +8975,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8750,7 +8993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97233483-73f7-4621-9134-37359e30393c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR011"
 			(at 27.94 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8810,7 +9053,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR043")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8827,7 +9070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98c1347d-748a-4601-a1d2-5aafe9bd191c")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 77.47 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +9132,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8907,7 +9150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a10f036-1431-434b-a3b4-47b3cce2a110")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 43.18 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8971,7 +9214,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8988,7 +9231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d9bf0fa-c26f-48c9-adc4-dde63559781d")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 81.28 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +9293,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9068,7 +9311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11a27d6-ffd8-4e51-b87c-e213993d1076")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 210.82 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9408,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39f394a-c2d2-44b7-b831-36f5ba24ee93")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 120.65 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -9243,7 +9486,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a40e442e-258d-4a64-b76e-7317033f72ff")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR040"
 			(at 224.79 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9414,7 +9657,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR020")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9511,7 +9754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae484ec-a32c-4002-82df-cc7e9d007dcf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR07"
 			(at 16.51 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9571,7 +9814,84 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR039")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab3050e2-6860-4389-9e44-e8acc1e1e7e4")
+		(property "Reference" "#FLG01"
+			(at 49.53 22.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dff2836c-f401-4ede-b2d8-b32c7e75bb87")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -9589,7 +9909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2353610-4f78-40ca-b661-16b360d81d88")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 91.44 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9663,7 +9983,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9681,7 +10001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6ab59ac-a7fe-409c-9698-89a9c13e0f9e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR035"
 			(at 173.99 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9741,7 +10061,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR017")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9759,7 +10079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0bf54a-ff3e-42a6-b1da-5602ac19b8d6")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 231.14 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +10176,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9874,7 +10194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07c3cc6-e590-47b6-83f3-7cbb32fc2d4e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR034"
 			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9934,7 +10254,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR013")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9952,7 +10272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c33a0d88-beef-4b3d-824f-a97674f327d9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 16.51 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10012,7 +10332,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd75ff5-7345-4186-a7bb-0b5cd9ff6c06")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 87.63 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10146,7 +10466,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10164,7 +10484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0bb3d3-44cd-45db-8077-ad2226f9725c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 39.37 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +10544,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10242,7 +10562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceefdca6-f7b3-48c7-ac71-8701cb9c38b0")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 54.61 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10306,7 +10626,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10324,7 +10644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d15a73ca-3fd2-44b7-ac47-89675e88e292")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR028"
 			(at 101.6 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10385,7 +10705,84 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR0105")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 223.52 95.25 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1b431ae-7c3a-49de-ac83-e67b54f3f66b")
+		(property "Reference" "#FLG02"
+			(at 223.52 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 228.6 98.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2abe5de9-58f6-4d4f-bab0-7bf60c339fd2")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10485,7 +10882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db549454-fd8a-4842-948b-97429e10e864")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 185.42 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10549,7 +10946,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc39c16a-fd2e-48e0-a3f3-b2d30f761693")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 106.2833 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10677,7 +11074,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10694,7 +11091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dec305bf-0963-4418-8281-fdfd0efe5d24")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 124.46 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +11153,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10774,7 +11171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9871d0f-c1e6-4092-b030-ec784bb40fed")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR041"
 			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10834,7 +11231,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR019")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10852,7 +11249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f15796ba-92e9-451d-9dce-5aebd747d39c")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 31.75 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,7 +11313,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10934,7 +11331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38909df-2e48-4b09-b05c-b1b1cce3b1dc")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 185.42 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +11395,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11016,7 +11413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a4e5e4-be62-44b1-8fd8-1372c8d96ca3")
-		(property "Reference" "R35"
+		(property "Reference" "R1"
 			(at 19.05 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11080,7 +11477,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "R35")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11096,10 +11493,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fcf63a8d-82d2-4003-af2c-8dbdfba8d7f0")
-		(property "Reference" "C2"
-			(at 223.52 99.0599 0)
+		(property "Reference" "C6"
+			(at 214.63 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11110,7 +11506,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 223.52 101.5999 0)
+			(at 213.36 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11162,7 +11558,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11180,7 +11576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe293468-ed01-4ad7-a5c0-aa3182a9c682")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 48.26 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11241,7 +11637,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11259,7 +11655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe7f2bfd-97cc-4d9d-84c0-fa343a135b5f")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR022"
 			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11319,7 +11715,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/3b8ad546-7f06-4079-a677-c57f9616649a"
-					(reference "#PWR0106")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

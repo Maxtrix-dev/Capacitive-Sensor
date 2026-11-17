@@ -540,7 +540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "117a8e95-337d-42fd-acc1-0a6b7b8d211e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR01"
 			(at 24.13 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -601,7 +601,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
-					(reference "#PWR040")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -619,7 +619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58655bab-0cae-4b4a-9dfc-37450a3c2bae")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR02"
 			(at 24.13 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -680,7 +680,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
-					(reference "#PWR041")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -698,7 +698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62362ad2-b1da-4620-9b18-c3ad4be325c8")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR04"
 			(at 78.74 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -759,7 +759,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
-					(reference "#PWR0101")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -777,7 +777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91fa5bc3-1e23-450f-a0c1-90a22147b3b4")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR05"
 			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -838,7 +838,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
-					(reference "#PWR0102")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -856,7 +856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7da5bfd-d821-4ba2-904e-363ca68cc4f5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR06"
 			(at 110.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -917,7 +917,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
-					(reference "#PWR047")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -935,7 +935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56813e8-886f-4ca4-b414-c10c32cf10b5")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR03"
 			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -996,7 +996,7 @@
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
-					(reference "#PWR042")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
