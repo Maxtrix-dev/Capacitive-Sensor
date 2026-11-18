@@ -629,7 +629,34 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "I2C": [
+        "SDA",
+        "SCL"
+      ],
+      "SIGNAL": [
+        "PGOOD",
+        "CHG",
+        "DM",
+        "DP",
+        "ALRT"
+      ],
+      "Spiral": [
+        "C",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -670,7 +697,7 @@
         "uuid": "98719f60-37ed-4a80-8090-07b2bfe138cb"
       }
     ],
-    "used_designators": "#FLG1-6,#PWR1-111,C1-25,D1-3,J1,JP1,L1-2,R1-40,SW1-2,TS1,U1-46",
+    "used_designators": "#FLG1-6,#PWR1-112,C1-25,D1-3,F1,J1-3,JP1,L1-2,Q1,R1-45,SW1-2,TS1,U1-46",
     "variants": []
   },
   "sheets": [

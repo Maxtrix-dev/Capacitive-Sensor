@@ -527,8 +527,8 @@
 		)
 	)
 	(rectangle
-		(start 78.74 77.47)
-		(end 210.82 123.19)
+		(start 124.46 80.01)
+		(end 209.55 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -540,17 +540,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 151.13 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ddf5d3-45e4-4a6e-8d82-6bfd9981c49b")
-	)
-	(wire
-		(pts
-			(xy 173.99 105.41) (xy 177.8 105.41)
+			(xy 172.72 105.41) (xy 177.8 105.41)
 		)
 		(stroke
 			(width 0)
@@ -560,27 +550,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 158.75 102.87)
+			(xy 172.72 113.03) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23e7321e-e99f-4d8d-b30b-fedd7f79c9f9")
+		(uuid "1947bc38-29b5-497a-ad18-a3b6f0c5f832")
 	)
 	(wire
 		(pts
-			(xy 140.97 97.79) (xy 166.37 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e5fe366-ab85-4fcf-9e72-bb175e72d19b")
-	)
-	(wire
-		(pts
-			(xy 166.37 87.63) (xy 177.8 87.63)
+			(xy 172.72 87.63) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -590,87 +570,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 177.8 113.03)
+			(xy 172.72 115.57) (xy 177.8 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36ec3723-2e36-4869-8989-261e1c2f7051")
+		(uuid "39eeae40-3098-4539-9df0-6efc7033174e")
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a168e2b-ee5e-4277-aa66-0d05f7caf695")
-	)
-	(wire
-		(pts
-			(xy 140.97 90.17) (xy 166.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58fd3b54-cd76-4066-8d11-5a61de9954ee")
-	)
-	(wire
-		(pts
-			(xy 140.97 110.49) (xy 158.75 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ddf2218-a3a1-4a63-91d8-2e3d87ecafd2")
-	)
-	(wire
-		(pts
-			(xy 140.97 115.57) (xy 151.13 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6173fe0d-0554-42be-a4f3-fc421f26b5bf")
-	)
-	(wire
-		(pts
-			(xy 140.97 92.71) (xy 151.13 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bf35337-2012-4437-91e0-4156aa80b46f")
-	)
-	(wire
-		(pts
-			(xy 140.97 107.95) (xy 151.13 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c371939-00b1-40de-bb1f-3225465b1127")
-	)
-	(wire
-		(pts
-			(xy 140.97 113.03) (xy 166.37 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf8efcb-ec6d-4459-8745-d128a3d6dada")
-	)
-	(wire
-		(pts
-			(xy 173.99 97.79) (xy 177.8 97.79)
+			(xy 172.72 97.79) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +590,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 177.8 90.17)
+			(xy 172.72 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +600,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 177.8 85.09)
+			(xy 172.72 85.09) (xy 177.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -700,17 +610,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 177.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ba105b-7f89-4e9b-8798-19a54dfe96ba")
-	)
-	(wire
-		(pts
-			(xy 158.75 107.95) (xy 177.8 107.95)
+			(xy 172.72 107.95) (xy 177.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +620,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 177.8 110.49)
+			(xy 172.72 110.49) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +630,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 100.33) (xy 138.43 100.33)
+			(xy 139.7 100.33) (xy 151.13 100.33)
 		)
 		(stroke
 			(width 0)
@@ -740,27 +640,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 151.13 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8518e4f-a515-45ff-a5aa-21f23e9abeaa")
-	)
-	(wire
-		(pts
-			(xy 140.97 95.25) (xy 158.75 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9e2c486-1f22-47b3-92c6-0a3ca31ece87")
-	)
-	(wire
-		(pts
-			(xy 166.37 95.25) (xy 177.8 95.25)
+			(xy 172.72 95.25) (xy 177.8 95.25)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 100.33) (xy 177.8 100.33)
+			(xy 172.72 100.33) (xy 177.8 100.33)
 		)
 		(stroke
 			(width 0)
@@ -780,17 +660,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 105.41) (xy 166.37 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66c3c44-df73-46e8-abe2-9adfb78c72b5")
-	)
-	(wire
-		(pts
-			(xy 158.75 92.71) (xy 177.8 92.71)
+			(xy 172.72 92.71) (xy 177.8 92.71)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 177.8 102.87)
+			(xy 172.72 102.87) (xy 177.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -809,7 +679,7 @@
 		(uuid "f35971e7-359d-4bf0-96e5-851fb6da6540")
 	)
 	(label "Spiral.3"
-		(at 151.13 92.71 180)
+		(at 165.1 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -819,7 +689,7 @@
 		(uuid "140552c6-33f8-40d8-9cff-0f3898c0d0b5")
 	)
 	(label "Spiral.8"
-		(at 166.37 105.41 180)
+		(at 165.1 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -829,7 +699,7 @@
 		(uuid "1f6af5a8-2440-4c4f-bc6c-05be48b5c5fb")
 	)
 	(label "Spiral.7"
-		(at 158.75 102.87 180)
+		(at 165.1 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -839,7 +709,7 @@
 		(uuid "2616ed0a-31f3-433b-ba9f-2251e5841273")
 	)
 	(label "Spiral.C"
-		(at 151.13 85.09 180)
+		(at 165.1 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -849,7 +719,7 @@
 		(uuid "3431ba77-4109-4761-b755-7866a02ede00")
 	)
 	(label "Spiral.5"
-		(at 166.37 97.79 180)
+		(at 165.1 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -859,7 +729,7 @@
 		(uuid "478f6a34-b826-46c0-996f-46bff7e776fe")
 	)
 	(label "Spiral.4"
-		(at 158.75 95.25 180)
+		(at 165.1 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -869,7 +739,7 @@
 		(uuid "55047f58-c70b-4fba-92ae-b6190ee20b8c")
 	)
 	(label "Spiral.11"
-		(at 166.37 113.03 180)
+		(at 165.1 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,7 +749,7 @@
 		(uuid "57f70b05-5f70-4a57-b748-540b175dc4f3")
 	)
 	(label "Spiral.9"
-		(at 151.13 107.95 180)
+		(at 165.1 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -889,7 +759,7 @@
 		(uuid "617a1c64-5676-4f1a-b71c-416c3b2e1831")
 	)
 	(label "Spiral.10"
-		(at 158.75 110.49 180)
+		(at 165.1 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -899,7 +769,7 @@
 		(uuid "7a25a8e7-438f-4f33-b263-54a7c299a660")
 	)
 	(label "Spiral.2"
-		(at 166.37 90.17 180)
+		(at 165.1 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -909,7 +779,7 @@
 		(uuid "827ff22c-d185-4742-b509-6b9de12c5f12")
 	)
 	(label "Spiral.12"
-		(at 151.13 115.57 180)
+		(at 165.1 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -919,7 +789,7 @@
 		(uuid "a285be2b-4230-4061-abbf-2c1ce084661c")
 	)
 	(label "Spiral.1"
-		(at 158.75 87.63 180)
+		(at 165.1 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -929,7 +799,7 @@
 		(uuid "e9a80cfb-0cf3-4cbe-96e1-760bece01077")
 	)
 	(label "Spiral.6"
-		(at 151.13 100.33 180)
+		(at 165.1 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -938,9 +808,9 @@
 		)
 		(uuid "ef190cd7-8b87-45ed-b7ce-d1ec159c8066")
 	)
-	(hierarchical_label "Spiral{C 1 2 3 4 5 6 7 8 9 10 11 12}"
+	(hierarchical_label "Spiral{Spiral}"
 		(shape input)
-		(at 127 100.33 180)
+		(at 139.7 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -951,7 +821,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 102.87 270)
+		(at 168.91 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -959,29 +829,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0544ea6d-b102-4932-9c70-53b57fef41e6")
+		(uuid "04feeed0-9027-4017-8e99-3856e105348e")
 		(property "Reference" "R33"
-			(at 162.56 100.584 90)
+			(at 172.72 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "510R"
-			(at 162.56 99.06 90)
+			(at 172.974 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 162.56 101.092 90)
+			(at 168.91 101.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -992,7 +862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1003,7 +873,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1014,10 +884,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f3c6206-c1c6-4486-99c4-8170f5332a8d")
+			(uuid "f230fe5e-3945-4eac-b323-c060fb3fb25c")
 		)
 		(pin "1"
-			(uuid "70c75113-1f17-45cb-92e7-197d38d06043")
+			(uuid "1b59f8db-5b2b-49f9-bc03-282c187811d6")
 		)
 		(instances
 			(project "vanoce"
@@ -1030,7 +900,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 110.49 270)
+		(at 168.91 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1038,740 +908,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f82a191-87ea-4150-8822-5ed7434be6ac")
-		(property "Reference" "R34"
-			(at 162.56 108.204 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 162.56 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 162.56 108.712 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3d41c131-44b4-4ec1-aa9a-27255e395c95")
-		)
-		(pin "1"
-			(uuid "4ed55dad-81c1-4eb7-9e8f-ec8ef1ea3942")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bd0d66e-c056-4ab3-b874-ac2e1a4380c0")
-		(property "Reference" "R37"
-			(at 170.18 103.124 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 170.18 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 170.18 103.632 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "242cc21e-29e1-4ae5-bce9-c67ed0f6d068")
-		)
-		(pin "1"
-			(uuid "01af1984-1049-40e7-9aee-e9f07cc627a1")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 92.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6463c0d7-e229-4253-b5a7-73b3d3e5e12b")
-		(property "Reference" "R27"
-			(at 154.94 90.424 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 154.94 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.94 90.932 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ae3bfdd4-3234-4081-bea7-b72b0f66f063")
-		)
-		(pin "1"
-			(uuid "70a78369-b22f-40cc-9e76-51113ced04e0")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65073400-0d48-4cdf-b039-4d7684840354")
-		(property "Reference" "R29"
-			(at 154.94 105.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 154.94 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.94 106.172 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0f5e14f8-f95f-42b9-97cd-4e649a04eaab")
-		)
-		(pin "1"
-			(uuid "66639cba-5bfa-4c60-84df-c5d0bfe83e3e")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bf12359-b93d-401d-aaf2-3fd99ae40743")
-		(property "Reference" "R26"
-			(at 154.94 82.804 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 154.94 81.026 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.94 83.312 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "65480a07-7015-40f1-a246-46a1fe19bf89")
-		)
-		(pin "1"
-			(uuid "c66b19e5-7984-4121-b5ba-d3c7eb4aefb5")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7d0fb47e-76bc-4f93-890f-d48089404a76")
-		(property "Reference" "R35"
-			(at 170.18 87.884 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 170.18 86.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 170.18 88.392 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64d00387-f776-475c-a923-e3e8ec205a64")
-		)
-		(pin "1"
-			(uuid "5ff8f404-50eb-4800-bba3-002a220b0040")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93eb5963-8670-4257-82c5-38cb752dd780")
-		(property "Reference" "R32"
-			(at 162.56 92.964 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 162.56 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 162.56 93.472 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dece9948-5f76-4f2c-88eb-3bc6ab924bc2")
-		)
-		(pin "1"
-			(uuid "90ce3f07-e936-4cd5-82d6-d6d619bd69a7")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "94711ae5-5856-4767-903f-80e932411114")
-		(property "Reference" "R28"
-			(at 154.94 98.044 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 154.94 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.94 98.552 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb1c6538-80ef-4f17-8d2e-68fdde3a816c")
-		)
-		(pin "1"
-			(uuid "73e7a1b9-5b91-44f2-97c9-249ee2c8cded")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 97.79 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ccb7a1d5-8c3b-40f9-8bd8-faaf431233a9")
-		(property "Reference" "R36"
-			(at 170.18 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510R"
-			(at 170.18 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 170.18 96.012 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57be723f-55df-4542-999c-7450dc7cdc73")
-		)
-		(pin "1"
-			(uuid "6d2141c7-d042-4dae-a212-4141af1af9dd")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d5db14d3-630d-4f8b-8f69-cd49631c87d7")
+		(uuid "0d227155-4df7-453c-8e79-76c5ab2b1021")
 		(property "Reference" "R31"
-			(at 162.56 85.344 90)
+			(at 172.72 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "510R"
-			(at 162.56 83.566 90)
+			(at 172.974 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 162.56 85.852 90)
+			(at 168.91 85.852 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1782,7 +941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 87.63 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +952,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 87.63 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1804,10 +963,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "91b1e10f-298f-4983-8606-b928b30a9c9a")
+			(uuid "25f415c9-571d-477b-8d14-57674ab9f35f")
 		)
 		(pin "1"
-			(uuid "e08b8ce9-15c6-44d0-accd-7f91bbeb828d")
+			(uuid "56e7df12-cb79-4e10-89fc-923820a965ee")
 		)
 		(instances
 			(project "vanoce"
@@ -1820,7 +979,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 113.03 270)
+		(at 168.91 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1828,29 +987,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "df99445a-ca74-42cf-9570-320b8f9e9413")
-		(property "Reference" "R38"
-			(at 170.18 110.744 90)
+		(uuid "36e329b6-aecd-46a1-8858-d884cbe9c895")
+		(property "Reference" "R35"
+			(at 172.72 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "510R"
-			(at 170.18 109.22 90)
+			(at 172.974 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 170.18 111.252 90)
+			(at 168.91 88.392 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,7 +1020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 113.03 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,7 +1031,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 113.03 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,15 +1042,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "da1c91e3-3204-4ad8-9eab-f38374a7c25f")
+			(uuid "a3727d52-abc9-4479-8d58-9913f87a1608")
 		)
 		(pin "1"
-			(uuid "00cc35fb-1f01-4d61-b2f2-117ebb3fc161")
+			(uuid "0de7308e-c246-435c-8360-e74c744f9539")
 		)
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1899,7 +1058,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 115.57 270)
+		(at 168.91 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1907,29 +1066,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef035a59-3dc5-4f95-a1c3-ebaa022c06fb")
-		(property "Reference" "R30"
-			(at 154.94 113.284 90)
+		(uuid "468c030a-0cc4-4e35-994c-53fd5d29093f")
+		(property "Reference" "R44"
+			(at 172.72 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Value" "510R"
-			(at 154.94 111.76 90)
+			(at 172.974 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.94 113.792 90)
+			(at 168.91 90.932 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1940,7 +1099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 115.57 0)
+			(at 168.91 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +1110,639 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 115.57 0)
+			(at 168.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ef0ab6c-929a-4a9a-9c30-7ac2e20e9724")
+		)
+		(pin "1"
+			(uuid "fd82db3d-c92f-4c81-9cca-d9db56a57642")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52144332-fab5-42be-af18-2c6ae286e3e8")
+		(property "Reference" "R34"
+			(at 172.72 112.522 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 113.538 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 111.252 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e376d846-891b-409d-8a07-9dc237d2d90a")
+		)
+		(pin "1"
+			(uuid "96b0f6e8-17b3-44f6-952d-8a22de82b031")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71d8d901-de12-43e7-b405-22406428f33e")
+		(property "Reference" "R36"
+			(at 172.72 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 98.298 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 96.012 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84900dc7-8992-4316-ac13-18fdabb84a79")
+		)
+		(pin "1"
+			(uuid "52a05f52-0b22-446d-ae88-ae79520a88cb")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "724cb3cd-d1d6-4efd-9a29-b4dcff59d9d1")
+		(property "Reference" "R42"
+			(at 172.72 107.442 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 108.458 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 106.172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69ef480d-d408-4f5a-b7e6-8ee52e2b52e2")
+		)
+		(pin "1"
+			(uuid "fb12cc8c-534f-4367-8c38-c8b0fed89449")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77141ea9-4e6a-45fd-b77c-6df2980467b9")
+		(property "Reference" "R37"
+			(at 172.72 104.902 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 105.918 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 103.632 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "909f05c3-2040-4e19-9b60-e145ed461233")
+		)
+		(pin "1"
+			(uuid "d5df034b-0a2b-44a9-8319-5013ed8176e5")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a90e95b9-5df4-4840-923e-7cddac8f593c")
+		(property "Reference" "R32"
+			(at 172.72 94.742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 95.758 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 93.472 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72f3ee03-4846-4ef3-aba5-ffeaf1642e96")
+		)
+		(pin "1"
+			(uuid "e81ba5d8-8deb-4fa3-8b02-c7457540b182")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4bf0578-a630-4d7a-b222-a7adc85dc7e4")
+		(property "Reference" "R43"
+			(at 172.72 99.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 100.838 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 98.552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cacb25a-eca1-48c9-9993-64cb263191c9")
+		)
+		(pin "1"
+			(uuid "e1936ddf-069f-443c-a0d2-9f97bdb7be27")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db92d803-2d44-4760-9a19-37865ba8c582")
+		(property "Reference" "R45"
+			(at 172.72 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 85.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 83.312 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf9534a1-9fc0-42de-afc4-364061a1704b")
+		)
+		(pin "1"
+			(uuid "6137ce89-c9d7-4960-9b3c-49c697661d7f")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef035a59-3dc5-4f95-a1c3-ebaa022c06fb")
+		(property "Reference" "R30"
+			(at 172.72 115.062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 113.792 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,6 +1877,85 @@
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
 					(reference "TS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 110.49 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffdd2782-1f2a-43d1-8cfe-b2c1699bb3f1")
+		(property "Reference" "R38"
+			(at 172.72 109.982 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 172.974 110.998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 108.712 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7990f50-9942-4b8a-b125-5e730be51fec")
+		)
+		(pin "1"
+			(uuid "d01049a0-2cd9-43a9-8ffa-f5c1a18dedc8")
+		)
+		(instances
+			(project "vanoce"
+				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/c2ee5595-c68f-4260-8fab-eeeade00b355"
+					(reference "R38")
 					(unit 1)
 				)
 			)

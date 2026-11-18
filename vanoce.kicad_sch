@@ -340,7 +340,7 @@
 	)
 	(bus
 		(pts
-			(xy 201.93 148.59) (xy 205.74 148.59)
+			(xy 200.66 135.89) (xy 204.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +380,7 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 148.59) (xy 205.74 118.11)
+			(xy 204.47 135.89) (xy 204.47 118.11)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +400,7 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 118.11) (xy 219.71 118.11)
+			(xy 204.47 118.11) (xy 219.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1040,9 +1040,9 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU_I2C{SDA SCL}" input
+		(pin "MCU_I2C{I2C}" input
 			(at 196.85 106.68 0)
-			(uuid "533998eb-c3c8-4dc7-8fe8-f14bfbef1871")
+			(uuid "1e84fe43-44ee-433b-af4e-de76a8ca3990")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,9 +1050,9 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_SIGNAL{PGOOD CHG DMINUS DPLUS ALRT}" input
+		(pin "SIGNAL{SIGNAL}" input
 			(at 196.85 113.03 0)
-			(uuid "459bd860-5ee0-4bd3-bbe9-cbb842584d89")
+			(uuid "73818df2-3c02-46b7-a9c7-af436a52b914")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,16 +1106,6 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU_I2C{SDA SCL}" input
-			(at 53.34 88.9 0)
-			(uuid "64f0fe0d-fb65-4e3b-ad3f-49aded3e3e18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_LED{EN}" input
 			(at 53.34 82.55 0)
 			(uuid "f5259469-5acf-49fe-acfd-ce839af1e262")
@@ -1144,6 +1134,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MCU_I2C{I2C}" input
+			(at 53.34 88.9 0)
+			(uuid "1cb2a628-2dde-403c-9143-d7794daac0a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1192,16 +1192,6 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU_I2C{SDA SCL}" input
-			(at 139.7 88.9 0)
-			(uuid "1065f41b-3958-413c-836a-087a92e70439")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_LED{EN}" input
 			(at 139.7 82.55 0)
 			(uuid "764d3467-4e8e-4e75-8d26-5a98a4b60ecf")
@@ -1230,6 +1220,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "MCU_I2C{I2C}" input
+			(at 139.7 88.9 0)
+			(uuid "0fdeb314-4f2b-4fe7-a95f-f04e0cce6405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1278,16 +1278,6 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU_I2C{SDA SCL}" input
-			(at 99.06 88.9 0)
-			(uuid "f14348a3-dd9f-4942-aa09-c7ac39d3d1f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MCU_LED{EN}" input
 			(at 99.06 81.28 0)
 			(uuid "6af20f81-93cd-49c7-a929-a3d0f504f0a7")
@@ -1318,6 +1308,16 @@
 				(justify left)
 			)
 		)
+		(pin "MCU_I2C{I2C}" input
+			(at 99.06 88.9 0)
+			(uuid "03486934-3e4a-47ec-a724-2c7c03b0fa91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "vanoce"
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb"
@@ -1327,7 +1327,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 138.43)
+		(at 157.48 125.73)
 		(size 43.18 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1343,7 +1343,7 @@
 		)
 		(uuid "c2ee5595-c68f-4260-8fab-eeeade00b355")
 		(property "Sheetname" "Capacitive Touch"
-			(at 158.75 137.7184 0)
+			(at 157.48 125.0184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Sheetfile" "capacitive.kicad_sch"
-			(at 158.75 159.3346 0)
+			(at 157.48 146.6346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1364,9 +1364,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Spiral{C 1 2 3 4 5 6 7 8 9 10 11 12}" input
-			(at 201.93 148.59 0)
-			(uuid "9220d013-40b5-43d3-aa43-51dcd63233da")
+		(pin "Spiral{Spiral}" input
+			(at 200.66 135.89 0)
+			(uuid "b30f19ee-8fb7-42c4-8c68-48a2e7969fa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,39 +1420,39 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU_I2C{SDA SCL}" output
-			(at 219.71 106.68 180)
-			(uuid "1beab062-a1dd-4f7d-abf3-469e5b41ec09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MCU_SIGNAL{PGOOD CHG DMINUS DPLUS ALRT}" input
-			(at 219.71 113.03 180)
-			(uuid "291c1ac1-8695-4626-a57a-2cd8cabd2cdc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Spirale{C 1 2 3 4 5 6 7 8 9 10 11 12}" input
-			(at 219.71 118.11 180)
-			(uuid "1015db17-6e6d-48a3-858b-27a103fb6c09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MCU_LED{EN}" input
 			(at 219.71 90.17 180)
 			(uuid "d7913463-3413-4785-823a-b998b7f1cb7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_I2C{I2C}" output
+			(at 219.71 106.68 180)
+			(uuid "699140ad-ee29-4f4f-b5f5-10199a256c7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Spiral{Spiral}" input
+			(at 219.71 118.11 180)
+			(uuid "40023fdc-1fa4-4298-a630-fd7af03b8176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIGNAL{SIGNAL}" input
+			(at 219.71 113.03 180)
+			(uuid "7b504666-9ce0-4b3b-b121-042b0635f5ef")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1946,8 +1946,8 @@
 		)
 	)
 	(rectangle
-		(start 127 182.88)
-		(end 176.53 193.04)
+		(start 144.78 182.88)
+		(end 171.45 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -1956,6 +1956,18 @@
 			(type none)
 		)
 		(uuid "a01895c4-7f18-4916-b162-32b763580039")
+	)
+	(rectangle
+		(start 144.78 173.99)
+		(end 171.45 181.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eb28b37b-a5fd-42d5-9e57-4f19ed8fe124")
 	)
 	(text "This near the anodes"
 		(exclude_from_sim no)
@@ -1997,25 +2009,6 @@
 		(color 0 0 0 0)
 		(uuid "eac73a90-b7ca-431c-9381-fa3e8ddd8288")
 	)
-	(bus_entry
-		(at 151.13 170.18)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36f2a11d-1c41-4b03-bb4a-0800853de977")
-	)
-	(wire
-		(pts
-			(xy 133.35 172.72) (xy 148.59 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dca74cd-8932-4ddc-be5f-1eee82a1580f")
-	)
 	(wire
 		(pts
 			(xy 57.15 17.78) (xy 57.15 21.59)
@@ -2035,16 +2028,6 @@
 			(type default)
 		)
 		(uuid "1875fef2-9787-4025-9f8d-d922b78769e0")
-	)
-	(bus
-		(pts
-			(xy 151.13 170.18) (xy 157.48 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2db112-7fb2-4103-9c9c-0f52acf78306")
 	)
 	(wire
 		(pts
@@ -2128,16 +2111,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 186.69) (xy 148.59 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79605cee-b6fe-4041-aa27-f05aa905373c")
-	)
-	(wire
-		(pts
 			(xy 41.91 119.38) (xy 44.45 119.38)
 		)
 		(stroke
@@ -2158,16 +2131,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 189.23) (xy 148.59 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8816835e-a3b2-457b-9f69-f62eb341d82d")
-	)
-	(wire
-		(pts
 			(xy 36.83 16.51) (xy 36.83 22.86)
 		)
 		(stroke
@@ -2185,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "9441be51-4c98-40a1-adb1-4a70c6a7b9f2")
+	)
+	(bus
+		(pts
+			(xy 149.86 177.8) (xy 156.21 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e3fe7d-5925-4c59-a82f-531cb39c24d0")
 	)
 	(wire
 		(pts
@@ -2516,7 +2489,7 @@
 		)
 		(uuid "54cec7b0-87eb-4a91-a49a-e6840e04c99a")
 	)
-	(label "SDA"
+	(label "MCU_I2C.SDA"
 		(at 44.45 39.37 180)
 		(effects
 			(font
@@ -2636,7 +2609,7 @@
 		)
 		(uuid "8663604a-9127-4895-bb4d-2d5d51e984a3")
 	)
-	(label "EN"
+	(label "MCU_LED.EN"
 		(at 44.45 34.29 180)
 		(effects
 			(font
@@ -2796,7 +2769,7 @@
 		)
 		(uuid "b838da86-5b1c-42ff-a660-c027ae3f8f4e")
 	)
-	(label "SCL"
+	(label "MCU_I2C.SCL"
 		(at 44.45 36.83 180)
 		(effects
 			(font
@@ -2805,46 +2778,6 @@
 			(justify right bottom)
 		)
 		(uuid "bbf46c20-96af-46df-8ad5-0f476d292f39")
-	)
-	(label "MCU_I2C.SDA"
-		(at 134.62 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd103804-79a0-486c-b01d-9aefce7820f4")
-	)
-	(label "MCU_I2C.SCL"
-		(at 134.62 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bea0b722-c49c-44fc-aeb6-ec68a265ee3d")
-	)
-	(label "EN"
-		(at 133.35 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3367f0a-2b44-4c36-82f9-2611add2e5ee")
-	)
-	(label "MCU_LED.EN"
-		(at 135.89 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c348a505-5cc7-40fd-892a-92b9828cda06")
 	)
 	(label "LED_6_GREEN"
 		(at 69.85 74.93 0)
@@ -2875,16 +2808,6 @@
 			(justify left bottom)
 		)
 		(uuid "c8fc176c-66a3-4fcf-a2ee-b13b2933265a")
-	)
-	(label "SDA"
-		(at 132.08 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cba34f89-0b13-48e7-8830-db054632d4f2")
 	)
 	(label "LED_4_RED"
 		(at 133.35 93.98 180)
@@ -2925,16 +2848,6 @@
 			(justify right bottom)
 		)
 		(uuid "d8722479-f419-40d9-ba42-0f92ea8ca36d")
-	)
-	(label "SCL"
-		(at 132.08 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd1bc201-97cf-4c12-8472-40a8158baa66")
 	)
 	(label "LED_12_RED"
 		(at 69.85 118.11 0)
@@ -3080,7 +2993,7 @@
 	)
 	(hierarchical_label "MCU_LED{EN}"
 		(shape input)
-		(at 157.48 170.18 0)
+		(at 156.21 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3089,7 +3002,7 @@
 		)
 		(uuid "6df87f55-914b-4d92-accd-4c105e7ab8a9")
 	)
-	(hierarchical_label "MCU_I2C{SDA SCL}"
+	(hierarchical_label "MCU_I2C{I2C}"
 		(shape input)
 		(at 156.21 187.96 0)
 		(effects
