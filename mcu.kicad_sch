@@ -2001,16 +2001,6 @@
 		)
 		(uuid "5b461f86-1026-4867-8dfc-fc1e4f276def")
 	)
-	(label "IMU_INT_1"
-		(at 107.95 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fabe53d-2eb6-4501-aa90-cfdbdcb50c82")
-	)
 	(label "Spiral.11"
 		(at 113.03 71.12 90)
 		(effects
@@ -2022,12 +2012,12 @@
 		(uuid "62d6a352-21a6-45af-b079-0f9dd2f77719")
 	)
 	(label "SIGNAL.ALRT"
-		(at 90.17 96.52 180)
+		(at 107.95 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "68e89308-2a9a-4068-8d5b-c7751c54d649")
 	)
