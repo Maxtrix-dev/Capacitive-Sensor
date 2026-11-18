@@ -1801,7 +1801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SpiralTouch:SpiralTouch_D40_N12_C12_T60"
+		(property "Footprint" "SpiralTouch:SpiralTouch_D30_N12_C10_T40_VO"
 			(at 182.88 100.33 0)
 			(hide yes)
 			(show_name no)
