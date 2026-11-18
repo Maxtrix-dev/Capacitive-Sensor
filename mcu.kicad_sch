@@ -1548,6 +1548,10 @@
 		(uuid "7e062ae3-5921-4486-900d-646bb531a2dd")
 	)
 	(no_connect
+		(at 90.17 96.52)
+		(uuid "8086e987-34e5-426a-88ec-e442b12e1b17")
+	)
+	(no_connect
 		(at 90.17 104.14)
 		(uuid "8abacd73-6587-4bae-9c55-ff5ec57def0b")
 	)
@@ -2171,7 +2175,7 @@
 		)
 		(uuid "edb99a2d-20a9-431b-82b5-beec6766e880")
 	)
-	(label "Spirale.6"
+	(label "Spiral.6"
 		(at 138.43 88.9 0)
 		(effects
 			(font
