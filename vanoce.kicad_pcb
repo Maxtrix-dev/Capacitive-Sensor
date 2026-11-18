@@ -2293,7 +2293,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "0c8ce106-9338-489d-84cb-9bec54402cd9")
-		(at 184.975 140.375 180)
+		(at 186.95 150.85 180)
 		(property "Reference" "U21"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -3081,7 +3081,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "11f62197-9bc1-481e-95dd-873711ba6642")
-		(at 187.3 151.215 180)
+		(at 177.725 145.275 180)
 		(property "Reference" "U22"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -3371,7 +3371,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "13e6f4eb-1640-41a1-aba7-377a3b64404a")
-		(at 121.7 145.985 180)
+		(at 113.05 150.85 180)
 		(property "Reference" "U29"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -3661,7 +3661,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "1a7e22fb-7799-4bca-af6a-a602cd260b03")
-		(at 112.5 99.635 180)
+		(at 106.875 94.5 180)
 		(property "Reference" "U36"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -5500,7 +5500,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "20e56c9f-63c7-453f-9582-65eac04660ea")
-		(at 182.075 129.55 180)
+		(at 184.475 140.35 180)
 		(property "Reference" "U20"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -7214,7 +7214,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "260cab2b-85a1-406d-8f55-01dc9ba48c82")
-		(at 117.925 130.565 180)
+		(at 121.125 119.25 180)
 		(property "Reference" "U33"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -7504,7 +7504,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "2b1fbf92-341f-45a0-a53f-8dd815d1dcd4")
-		(at 133.525 77.31 180)
+		(at 137.275 69.275 180)
 		(property "Reference" "U43"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -11910,7 +11910,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "50c67ff7-0f31-46b6-b26d-a841035e9e34")
-		(at 98.4 87.625 180)
+		(at 90.225 80.575 180)
 		(property "Reference" "U38"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -13277,7 +13277,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "59805751-4f9f-4ab9-8c7d-3332ef649806")
-		(at 106.875 94.5 180)
+		(at 98.375 87.625 180)
 		(property "Reference" "U37"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -14462,7 +14462,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "5f21396a-0a3c-4785-8395-658ace42c4e7")
-		(at 122.775 78.5 180)
+		(at 133.525 77.325 180)
 		(property "Reference" "U42"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -14752,7 +14752,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "6072ea0b-2632-49d3-8821-7db34f9b3c8e")
-		(at 112.4 151.625 180)
+		(at 115.525 140.35 180)
 		(property "Reference" "U30"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -15042,7 +15042,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "640ac921-3698-4bd5-bdb6-10db945e7e00")
-		(at 100.975 79.675 180)
+		(at 111.875 79.1 180)
 		(property "Reference" "U40"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -17449,7 +17449,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "8a997d05-fd4d-46ba-a605-51c0aa139255")
-		(at 123.075 108.56 180)
+		(at 115.35 101.385 180)
 		(property "Reference" "U35"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -18633,7 +18633,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "96a8c09d-c893-43cf-9da9-0edd3f4bc598")
-		(at 131.2 139.835 180)
+		(at 122.275 145.275 180)
 		(property "Reference" "U28"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -19379,7 +19379,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "a170bb96-a30e-4d15-a1a9-d31291a82234")
-		(at 111.875 79.1 180)
+		(at 122.775 78.5 180)
 		(property "Reference" "U41"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -19669,7 +19669,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "a364c04c-3bcf-4b08-b9e6-58e7c40a2f00")
-		(at 90.225 80.575 180)
+		(at 100.975 79.675 180)
 		(property "Reference" "U39"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -20745,7 +20745,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "ab9a7130-4a92-409a-80fe-f7394329e4de")
-		(at 159.95 133.9 180)
+		(at 150 128.05 180)
 		(property "Reference" "U25"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -22025,7 +22025,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "bd851dc6-6d0e-4928-9169-b551df3b5484")
-		(at 120.45 120.835 180)
+		(at 123.325 108.65 180)
 		(property "Reference" "U34"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -22315,7 +22315,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "bf727e27-34de-4171-8d0d-313c074e7b2a")
-		(at 168.325 139.71 180)
+		(at 159.4 133.4 180)
 		(property "Reference" "U24"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -23270,7 +23270,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "c739e61c-1a9b-4933-a718-e3200beeb8da")
-		(at 149.85 128.51 180)
+		(at 140.6 133.4 180)
 		(property "Reference" "U26"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -25296,7 +25296,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "d45ff774-f7c3-4f44-9d7f-bac1286d6b79")
-		(at 180.35 125.975 180)
+		(at 181.675 129.8 180)
 		(property "Reference" "U18"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -26197,7 +26197,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "d51d9bc6-7d8a-42ed-aa82-d292dd40fc13")
-		(at 141.275 133.46 180)
+		(at 131.45 139.325 180)
 		(property "Reference" "U27"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -26984,7 +26984,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "da98cea9-9289-4503-ade3-0fcb011868fc")
-		(at 114.175 143.44 180)
+		(at 118.325 129.8 180)
 		(property "Reference" "U31"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -27628,7 +27628,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "e4f43f41-e88e-4dee-aaf1-5056f0e6263e")
-		(at 137.275 69.26 180)
+		(at 143.875 71.31 180)
 		(property "Reference" "U44"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -28416,7 +28416,7 @@
 	(footprint "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
 		(layer "B.Cu")
 		(uuid "ee3da513-c53c-4bd4-98e4-5d4c582815e9")
-		(at 179.1 145.81 180)
+		(at 168.55 139.325 180)
 		(property "Reference" "U23"
 			(at 0 0 0)
 			(layer "B.SilkS")
