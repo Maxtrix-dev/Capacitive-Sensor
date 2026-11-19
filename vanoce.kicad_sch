@@ -1095,7 +1095,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "led.kicad_sch"
+		(property "Sheetfile" "led_1.kicad_sch"
 			(at 30.48 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1267,7 +1267,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "led.kicad_sch"
+		(property "Sheetfile" "led_2.kicad_sch"
 			(at 74.93 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
