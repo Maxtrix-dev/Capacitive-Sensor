@@ -637,7 +637,7 @@
       "SIGNAL": [
         "PGOOD",
         "CHG",
-        "DM",
+        "DN",
         "DP",
         "ALRT"
       ],

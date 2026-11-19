@@ -2009,6 +2009,18 @@
 		(color 0 0 0 0)
 		(uuid "eac73a90-b7ca-431c-9381-fa3e8ddd8288")
 	)
+	(no_connect
+		(at 69.85 120.65)
+		(uuid "06e78dd1-0a54-44e0-949a-bd4f59152cfd")
+	)
+	(no_connect
+		(at 69.85 118.11)
+		(uuid "8e1a9204-6836-4fa0-9207-d3dc58912685")
+	)
+	(no_connect
+		(at 69.85 123.19)
+		(uuid "fc6a53bf-3ab8-4d0c-a8c3-ec9c9fa028a2")
+	)
 	(wire
 		(pts
 			(xy 57.15 17.78) (xy 57.15 21.59)
@@ -2239,16 +2251,6 @@
 		)
 		(uuid "03e5aa69-62ff-47df-959d-6b73a16f7130")
 	)
-	(label "LED_12_GREEN"
-		(at 69.85 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05d63228-b62a-4a0e-a0c2-283a5656b8fe")
-	)
 	(label "LED_6_BLUE"
 		(at 69.85 77.47 0)
 		(effects
@@ -2409,16 +2411,6 @@
 		)
 		(uuid "32ae2fdf-2464-4b71-a379-6582848e8b75")
 	)
-	(label "LED_12_GREEN"
-		(at 171.45 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33c12e10-eaea-4a91-9767-a1e19a70c808")
-	)
 	(label "LED_7_RED"
 		(at 69.85 80.01 0)
 		(effects
@@ -2539,16 +2531,6 @@
 		)
 		(uuid "69deccec-9dc4-4a79-8a24-2195a8068a2a")
 	)
-	(label "LED_12_BLUE"
-		(at 69.85 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7794e66b-3f37-4b1b-a16c-5f7ef3c948c5")
-	)
 	(label "LED_11_GREEN"
 		(at 69.85 113.03 0)
 		(effects
@@ -2589,16 +2571,6 @@
 		)
 		(uuid "7dd286f4-1689-4d66-8afe-565bbae75c5a")
 	)
-	(label "LED_12_RED"
-		(at 171.45 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f27ab6a-9483-474c-9e80-426a20cdf80a")
-	)
 	(label "LED_7_RED"
 		(at 171.45 21.59 180)
 		(effects
@@ -2618,16 +2590,6 @@
 			(justify right bottom)
 		)
 		(uuid "876c7466-7e4d-4279-b668-b075f2350a74")
-	)
-	(label "LED_12_BLUE"
-		(at 171.45 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "88df9ee6-605c-4c63-a9cd-c65ef94ff859")
 	)
 	(label "LED_2_GREEN"
 		(at 69.85 44.45 0)
@@ -2848,16 +2810,6 @@
 			(justify right bottom)
 		)
 		(uuid "d8722479-f419-40d9-ba42-0f92ea8ca36d")
-	)
-	(label "LED_12_RED"
-		(at 69.85 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de1e5cb2-1ab9-4f89-9fad-7436384ffa5a")
 	)
 	(label "LED_4_GREEN"
 		(at 69.85 59.69 0)
@@ -3095,133 +3047,6 @@
 				)
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/b3a6945d-5eaf-4fbb-925f-317395fe49da"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:XL-B1515RGBA-HF")
-		(at 176.53 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28fc81ee-5b63-458b-9fdd-06348ea148a0")
-		(property "Reference" "U18"
-			(at 175.77 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-B1515RGBA-HF"
-			(at 175.77 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:LED-SMD_4P-L1.6-W1.5_WHITE-LED"
-			(at 176.53 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22461781.pdf"
-			(at 176.53 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 176.53 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XL-B1515RGBA-HF"
-			(at 176.53 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22461781"
-			(at 176.53 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "7817e231-c9fd-42ff-9120-30b6dcb7f906")
-		)
-		(pin "1"
-			(uuid "e6723347-7150-43b0-9bcd-7eb3c7daf9fe")
-		)
-		(pin "3"
-			(uuid "96a9d45e-5589-4588-ac12-c142f1433214")
-		)
-		(pin "2"
-			(uuid "f2f44467-c0bd-4ca1-adbf-aeedd7c0ac1c")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/7b4aa72f-67b5-4baf-8b89-244ab9da205f"
-					(reference "U18")
-					(unit 1)
-				)
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/8389e334-74f2-44eb-bfee-666671eb8b57"
-					(reference "U44")
-					(unit 1)
-				)
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/b3a6945d-5eaf-4fbb-925f-317395fe49da"
-					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -4047,93 +3872,6 @@
 				)
 				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/b3a6945d-5eaf-4fbb-925f-317395fe49da"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 181.61 147.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70a2ffa0-8ef3-403d-a665-06a57fc479d0")
-		(property "Reference" "#PWR071"
-			(at 177.8 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 185.42 147.3199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 181.61 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03dd6e3f-e029-4941-b445-4f8059d96871")
-		)
-		(instances
-			(project "vanoce"
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/7b4aa72f-67b5-4baf-8b89-244ab9da205f"
-					(reference "#PWR071")
-					(unit 1)
-				)
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/8389e334-74f2-44eb-bfee-666671eb8b57"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-				(path "/98719f60-37ed-4a80-8090-07b2bfe138cb/b3a6945d-5eaf-4fbb-925f-317395fe49da"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)

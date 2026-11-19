@@ -5121,7 +5121,7 @@
 		)
 		(uuid "5d6df89c-0b2a-416a-a976-37293bf142a2")
 	)
-	(label "SIGNAL.DM"
+	(label "SIGNAL.DN"
 		(at 99.06 35.56 0)
 		(effects
 			(font
@@ -5131,7 +5131,7 @@
 		)
 		(uuid "61d9041e-66dc-42a4-9d82-7a701c3f5f34")
 	)
-	(label "SIGNAL.DM"
+	(label "SIGNAL.DN"
 		(at 83.82 35.56 180)
 		(effects
 			(font
@@ -5141,7 +5141,7 @@
 		)
 		(uuid "7f071d01-0ef4-400a-ae95-4676f23bad7f")
 	)
-	(label "SIGNAL.DM"
+	(label "SIGNAL.DN"
 		(at 52.07 38.1 0)
 		(effects
 			(font

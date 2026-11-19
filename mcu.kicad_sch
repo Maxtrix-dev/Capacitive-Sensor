@@ -2085,7 +2085,7 @@
 		)
 		(uuid "94cda839-b3d1-4ab3-b19a-002ec5cdfc29")
 	)
-	(label "SIGNAL.DM"
+	(label "SIGNAL.DN"
 		(at 138.43 86.36 0)
 		(effects
 			(font
